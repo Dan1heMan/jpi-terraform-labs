@@ -1,1 +1,1 @@
-# jpi-terraform-labs
+# cts-terraform-labs

@@ -1,0 +1,11 @@
+billing_account: 00976C-63A0B7-F8AB7D
+folder_id: folders/102489096091
+members:
+- group:gcp-jpi@cts.co
+org_id: "1048886479208"
+prefix: terraform-labs
+project_factory_project: cts-terraform-labs-pfactory
+region: europe-west2
+repo_owner: Cloud-Technology-Solutions
+service_account: project-factory@cts-terraform-labs-pfactory.iam.gserviceaccount.com
+zone: europe-west2-a
