@@ -5,7 +5,7 @@ module "primary_vpc" {              # Naming should be unique to the purpose of 
   source = "../modules/vpc"         # Location of the module via its file path
 
 # All arguments requiring values to be set
-  project_id   = "jpi-dev-project-1" 
+  project_id   = "jpi-dev-project-2" 
   vpc_name     = "dev-vpc-network"
 
   subnet        = "subnet-1"

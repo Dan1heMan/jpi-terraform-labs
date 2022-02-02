@@ -5,21 +5,21 @@
 
 # List all resources to be provisioned in this module
 
-resource "google_compute_instance" "vm" {
-  name         = var.instance_name
-  machine_type = var.machine_type
-  zone         = var.zone
-  project      = var.project_id
+# resource "google_compute_instance" "vm" {
+#   name         = var.instance_name
+#   machine_type = var.machine_type
+#   zone         = var.zone
+#   project      = var.project_id
 
-  tags         = var.tags
+#   tags         = var.tags
 
-  boot_disk {
-    initialize_params {
-      image = var.image_type
-    }
-  }
+#   boot_disk {
+#     initialize_params {
+#       image = var.image_type
+#     }
+#   }
 
-  network_interface {
-    subnetwork = var.subnet
-  }
-}
+#   network_interface {
+#     subnetwork = var.subnet
+#   }
+# }

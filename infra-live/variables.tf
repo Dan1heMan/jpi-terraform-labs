@@ -71,3 +71,24 @@ variable "cidr_range" {
   default     = "cidr"
   description = "cidr IP range"
 }
+
+variable "firewall_name" {
+  type        = string
+  default     = "fw"
+  description = "name of the fw rule" 
+}
+
+variable "ports" {
+  type    = list(string)
+  default = [ "tag" ]
+}
+
+variable "target_tags" {
+  type    = list(string)
+  default = [ "tag" ]
+}
+
+variable "source_tags" {
+  type    = list(string)
+  default = [ "tag" ]
+}

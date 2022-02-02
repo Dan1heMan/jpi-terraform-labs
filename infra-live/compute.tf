@@ -9,7 +9,7 @@ module "test_vm" {                      # Naming should be unique to the purpose
   machine_type  = "f1-micro"
   zone          = var.zone
   tags          = ["test", "database"]
-  project_id    = "jpi-dev-project-1"
+  project_id    = "jpi-dev-project-2"
   image_type    = "debian-cloud/debian-10" 
   vpc_name      = "dev-vpc-network"
   subnet        = "subnet-1"        
