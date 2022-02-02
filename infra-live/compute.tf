@@ -12,5 +12,5 @@ module "test_vm" {                      # Naming should be unique to the purpose
   project_id    = "jpi-dev-project-2"
   image_type    = "debian-cloud/debian-10" 
   vpc_name      = "dev-vpc-network"
-  subnet        = "subnet-1"        
+  subnet        = "subnet-2"        
 }

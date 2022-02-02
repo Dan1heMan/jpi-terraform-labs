@@ -4,6 +4,7 @@
 
 variable "project_id" {
   type        = string
+  default = "project"
   description = "project id"
 }
 
