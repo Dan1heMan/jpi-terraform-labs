@@ -4,7 +4,7 @@
 
 variable "project_id" {
   type        = string
-  default     = "project_id"
+  default     = "project"
   description = "project id"
 }
 
@@ -21,7 +21,7 @@ variable "tags" {
 
 variable "instance_name" {
   type        = string
-  default       = "instance_name"
+  default     = "instance_name"
   description = "VM name"
 }
 
