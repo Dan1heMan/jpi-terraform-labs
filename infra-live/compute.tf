@@ -14,3 +14,17 @@ module "test_vm" {                      # Naming should be unique to the purpose
   vpc_name      = "dev-vpc-network"
   subnet        = "subnet-2"        
 }
+
+module "Dans_Test_VM" {                 # Naming should be unique to the purpose of using this module
+  source = "../modules/compute"         # Location of the module via its file path
+
+# All arguments requiring values to be set
+  instance_name = "dans-database-vm"
+  machine_type  = "f1-micro"
+  zone          = var.zone
+  tags          = ["dan-test", "dan-database"]
+  project_id    = "jpi-dev-project-2"
+  image_type    = "debian-cloud/debian-10" 
+  vpc_name      = "dev-vpc-network"
+  subnet        = "subnet-2"        
+}
